@@ -1,0 +1,335 @@
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: 70vh;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+    }
+
+    .search-form .col-auto {
+        margin-bottom: 10px;
+    }
+
+    .search-form input {
+        max-width: 100%;
+    }
+
+    .search-form button {
+        width: 100%;
+    }
+
+    .container_avalaible {
+        margin-top: 20px;
+    }
+
+    .home_section {
+        padding: 15px;
+    }
+
+    .how-it-work-section {
+        min-height: 30vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    .how-it-work-section {
+        min-height: 20vh;
+    }
+}
+
+/* Header */
+.navbar {
+    height: 90px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    margin-left: 20px;
+    border: none;
+}
+
+.navspan {
+    color: red;
+}
+
+.navbar-nav {
+    font-weight: 500;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+/* Home Section */
+.carousel-inner {
+    max-height: 100vh;
+    /* Responsive height */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.carousel-caption {
+    bottom: 20%;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption h1 {
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+    /* Responsive font size */
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-weight: 500;
+}
+
+.search-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.search-form .col-auto {
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.search-form label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.search-form input {
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+}
+
+.search-form button {
+    height: 60px;
+    width: 120px;
+}
+
+/* Available Listings */
+.container_avalaible {
+    margin-top: -100px;
+    padding: 20px;
+    z-index: 3;
+    margin-top: 10px;
+}
+
+.home_section {
+    background-color: #f3f1f1;
+    padding: 20px;
+    margin: 10px 0;
+    z-index: 999;
+    margin-left: 16px;
+}
+
+.home_section i {
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+
+/* How It Works Section */
+.how-it-work-section {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.how-it-work-content h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.how-it-work-content p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.col_1 {
+    padding: 50px 00px;
+    margin: auto;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.readmore {
+    border-bottom: 1;
+    background-color: white;
+    opacity: 0.7;
+}
+
+/* explore start  */
+.explore {
+    margin-top: 150px;
+    padding-block: 150px;
+}
+
+.exploretext p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.exploretext h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.exploretext {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.explore_card_text {
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.explorecardradio1 {
+    background-color: rgb(47, 179, 30);
+    padding-inline: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    padding-block: 2px;
+}
+
+.explorecardradio2 {
+    background-color: rgb(88, 188, 221);
+    padding-inline: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    padding-block: 2px;
+}
+
+.explorecardradio3 {
+    background-color: rgb(248, 145, 49);
+    padding-inline: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    padding-block: 2px;
+}
+
+.price {
+    border-left: 2px solid #bbbbbb;
+    border-right: 2px solid #bbbbbb;
+    padding-inline: 4px;
+}
+
+/* review start css  */
+
+#review {
+    justify-content: center;
+    margin: 150px 00px;
+}
+
+.review p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.review h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.review {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*  */
+
+
+.reviewPrice {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* blog  */
+#blog{
+margin-block: 150px;
+}
+.blog p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.blog h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.blog {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.blogcard{
+    margin-block: 100px;
+}
+.blogcardheading{
+font-size: large;
+}
+.blogspan {
+    border-right: 1px solid #bbbbbb;
+    padding-right: 10px;
+    font-weight: 500;
+    color: rgb(24, 24, 24);
+}
+.blogcardtext{
+    text-align: start;
+}
+.blogcardp{
+    font-size: 15px;
+}
+
+/* Contact */
+#contact{
+    background-color: #e4eeee;
+    
+}
+.contact{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* last header */
+.navlinklast{
+    color: black;
+}
